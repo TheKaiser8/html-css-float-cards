@@ -34,11 +34,39 @@ h1 {
     text-align: center;
 }
 
+h3, span {
+    color: #fffffe;
+}
+
 p {
     text-align: center;
     margin: 30px auto;
 }
 
+a {
+    color: #5acce3;
+    text-decoration: none;
+}
 /*<------------
     MAIN
 --------------->*/
+
+.col-members {
+    width: calc(100% / 3 - 20px);
+    background-color: #0f0e17;
+    float: left;
+    margin: 0 10px;
+}
+
+.member-photo {
+    height: 100px;
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+.info-member {
+    width: calc(100% - 100px);
+    float: left;
+    padding: 15px;
+}
