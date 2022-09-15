@@ -46,16 +46,23 @@ p {
 a {
     color: #5acce3;
     text-decoration: none;
+    display: inline-block;
+    line-height: 25px;
 }
 /*<------------
     MAIN
 --------------->*/
+
+.row-members {
+    margin-bottom: 40px;
+}
 
 .col-members {
     width: calc(100% / 3 - 20px);
     background-color: #0f0e17;
     float: left;
     margin: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .member-photo {
@@ -68,5 +75,6 @@ a {
 .info-member {
     width: calc(100% - 100px);
     float: left;
-    padding: 15px;
+    padding: 10px 15px;
+    line-height: 25px;
 }
